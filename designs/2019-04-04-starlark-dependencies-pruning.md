@@ -4,7 +4,7 @@ last updated: 2019-04-04
 status: To be reviewed
 reviewers:
   - ?
-title: Dependencies pruning in Skylark
+title: Dependencies pruning in starlark
 authors:
   - emmanuel-p
 ---
@@ -13,7 +13,7 @@ authors:
 # Abstract
 
 The goal of this proposal is to provide a way to implement dependencies pruning
-in Skylark.
+in starlark.
 
 
 # Background
@@ -26,7 +26,7 @@ they cannot affect the outcome of the action.
 Bazel provides such a mechanism, but it is only implemented in the native rules
 (at least C++).
 
-The goal is to expose a similar mechanism to Skylark.
+The goal is to expose a similar mechanism to starlark.
 
 
 # Proposal
